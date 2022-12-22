@@ -1,0 +1,119 @@
+body{
+    background-image: url(../img/gal.jpg);
+}
+
+.menu{
+    border: solid 3px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    padding: auto 4px;
+    background-color: #d9d9d9;
+    font-family: system-ui, sans-serif;
+}
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+.page{
+    display: flex;
+    list-style: none;
+}
+img{
+    width: 150px;
+    height: 150PX;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 6vh;
+}
+.moi{
+    display: flex;
+    align-items: center;
+    border: 5px solid #d9d9d9;
+    background-color: #d9d9d9;
+    border-radius: 45px;
+}
+
+.texte{
+    align-items: center;
+    text-align: center;
+    border: solid 3px;
+    padding: 1rem;
+    background-color: #d9d9d9;
+    border-radius: 100rem;
+    width: 100vh;
+    margin: auto;
+}
+.titre{
+    color: red;
+    font-size: 32px;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+}
+.comp{
+    display: flex;
+    justify-content: space-around;
+}
+.liste{
+    border: #d9d9d9 solid 3px;
+    border-radius: 45px;
+    background-color: #d9d9d9;
+    padding: 2rem;
+}
+.imag{
+    border: #d9d9d9 solid 2px;
+    border-radius: 1rem;
+    background-color: #d9d9d9;
+}
+.form{
+    border: solid 3px;
+    border-radius: 4rem;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin: 10vh;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #252338;
+    text-align: center;
+    color: white;
+}
+.fa-2x{
+    margin-right: 2rem;
+}
+input{
+    width: 25%;
+    height: 25%;
+}
+@media screen and (max-width:600px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texte{
+        width: revert ;
+    }
+    .comp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    textarea{
+        width: 4rem;
+        height: 6rem;
+    }
+    p{
+        padding: 5rem;
+    }
+
+
+}
