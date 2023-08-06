@@ -99,7 +99,7 @@ footer{
 }
 input{
     width: 25%;
-    height: 25%;
+    height: 30px;
 }
 @media screen and (max-width:414px){
     .logo{
@@ -119,6 +119,17 @@ input{
         width: 4rem;
         height: 6rem;
     }
-
+    .menu{
+        margin: none;
+        width:16rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .form{
+        width: 50%;
+    }
+    input{
+        width: 50%;
+    }
 
 }
