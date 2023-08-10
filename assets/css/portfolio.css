@@ -24,6 +24,7 @@ a{
 img{
     width: 150px;
     height: 150PX;
+    border-radius: 8rem ;
 }
 .logo{
     display: flex;
@@ -101,7 +102,11 @@ input{
     width: 25%;
     height: 30px;
 }
-@media screen and (max-width:414px){
+@media screen and (max-width:800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .logo{
         display: flex;
         flex-direction: column;
@@ -126,7 +131,7 @@ input{
         justify-content: space-around;
     }
     .form{
-        width: 50%;
+        width: 50vw;
     }
     input{
         width: 50%;
